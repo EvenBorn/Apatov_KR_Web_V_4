@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma';
+}
+header{
+	width: 100%;
+	height: 10vh;
+	background-color: white;
+}
+ul{
+	list-style: none;
+	display: flex;
+	margin-left: 27%;
+	margin-top: -2%;
+	color:grey;
+}
+li{
+	margin-right: 6%;
+}
+.hover:hover{
+	opacity: 0.5;
+}
+.logo{
+	width: 200px;
+	height: 40px;
+	content: url(image/Logo.png);
+	margin-top:2%;
+	margin-left: 10%;
+}
+.login{
+	width: 100px;
+	height: 40px;
+	background-color: green;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: -0.5%;
+	margin-left: 10%;
+
+}
+.Text:hover{
+	color: black;
+}
+.Text{
+	margin-top: 10%;
+	color: white;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	background-image: url(image/ImgBackGround.png);
+	background-size: cover;
+}
+.textb1{
+	font-size: 50pt;
+	color: #DBDBDB;
+	margin: 0;
+	text-align: center;	
+	padding-top: 15%;
+}
+.textb2{
+	font-size: 30pt;
+	color: #DBDBDB;
+	text-align: center;
+}
+.button{
+	width: 300px;
+	height: 70px;
+	background-color: green;
+	margin: auto;
+	border-radius: 8px;
+}
+.textbut{
+	color: white;
+	font-size: 15pt;
+	text-align: center;
+	padding-top: 7%;
+}
+.textbut:hover{
+	color: black;
+}
